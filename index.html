@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Ecommax</title>
+
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+   <!-- Bootstrap link -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+   <!-- CSS style sheet -->
+   <link rel="stylesheet" href="style.css" />
+</head>
+
+<body id="top">
+   <div class="ani">
+      <!-- header section -->
+      <header>
+         <div class="container-fluid">
+            <div class="head-top d-flex align-items-center mb-3">
+               <div class="col-lg-5 col-md-4 d-flex align-items-center gap-4 pb-lg-4 pt-lg-4 px-5">
+                  <div class="loca call gap-2">
+                     <i class="fa-solid fa-location-dot px-2 text-white"></i>
+                     <a class="h" href="">Store Locator</a>
+                  </div>
+                  <div class="call">
+                     <i class="fa-solid fa-phone-volume px-2 text-white"></i>
+                     <a class="h" href="tel:+(638)-160-0000">+(638)-160-0000</a>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-md-4">
+                  <a href=""><img src="./ima/logo.png" class="w-100" alt="" /></a>
+               </div>
+               <div class="col-lg-5 col-md-4">
+                  <div class="d-flex align-items-center justify-content-end gap-4 px-5">
+                     <!-- cart list -->
+                     <div class="header whish">
+                        <button class="btn btn-outline-dark border-0" type="button" data-bs-toggle="offcanvas"
+                           data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                           <i class="fa-solid fa-cart-shopping px-1 text-white "></i>
+                           <span class="wish-count text-center h">0</span>
+                        </button>
+                     </div>
+                     <!-- profile -->
+                     <div class="header whish">
+                        <a href="">
+                           <span>
+                              <i class="fa-solid fa-user text-white"></i>
+                           </span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="head-bottom bg-dark h-100 p-3">
+               <div class="row align-items-center">
+                  <div class="col-xl-3 col-md-7 col-sm-12">
+                     <div class="title h-100">
+                        <span class="h">BROWSE ALL COLLECTION</span>
+                        <i class="fa-solid fa-arrow-down text-white px-1"></i>
+                     </div>
+                  </div>
+                  <div class="d-none d-xl-block col-xl-6">
+                     <div class="d-none d-xl-flex align-items-center justify-content-center">
+                        <nav class="d-flex">
+                           <li>
+                              <a href="#top"><span class="h">HOME</span></a>
+                           </li>
+                           <li>
+                              <a href="#collection">
+                                 <span class="h">COLLECTIONS
+                                    <i class="fa-solid fa-arrow-down text-white px-1"></i> </span></a>
+                           </li>
+                           <li>
+                              <a href="#products"><span class="h">PRODUCTS
+                                    <i class="fa-solid fa-arrow-down text-white px-1"></i></span></a>
+                           </li>
+                           <li>
+                              <a href="#others"><span class="h">OTHERS
+                                    <i class="fa-solid fa-arrow-down text-white px-1"></i></span></a>
+                           </li>
+
+                        </nav>
+                     </div>
+                  </div>
+                  <div class="col-xl-3 col-md-5 d-flex align-items-center ">
+                     <div class="form">
+                        <form class="d-flex">
+                           <input class="form-control me-2 bg-body-tertiary" type="search" placeholder="Search"
+                              aria-label="Search" />
+                           <button class="btn bg-body-tertiary" type="submit">
+                              <i class="fa-solid fa-magnifying-glass"></i>
+                           </button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- carousal -->
+
+         <div id="carouselExampleAutoplaying" class="carousel slide pt-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="car1 d-flex justify-content-evenly">
+                     <div class="caro-cont">
+                        <h6 class="text-white p-3 co"> SPECIAL OFFER TODAY</h6>
+                        <h1 class="text-white p-3 ch"> SMART SPEAKER <br /> SERIES 8</h1>
+                        <h5 class="d-inline p-3 cp">STARTING AT $199</h5><br /><br />
+                        <button class="btn text-bg-info btn-outline-primary p-3">SHOP NOW </button>
+                     </div>
+                     <div class="i">
+                        <img src="./ima/caro1.png" class="car-img d-block w-100" alt="..." />
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="car1 d-flex justify-content-evenly">
+                     <div class="caro-cont">
+                        <h6 class="text-white p-3 co"> SPECIAL OFFER TODAY </h6>
+                        <h1 class="text-white p-3 ch"> SMART PC <br /> SERIES 3 </h1>
+                        <h5 class="d-inline p-3 cp">STARTING AT $499</h5><br /><br />
+                        <button class="btn text-bg-info btn-outline-primary p-3">SHOP NOW</button>
+                     </div>
+                     <div class="i">
+                        <img class="car-img" src="./ima/caro2.png" class="d-block w-100" alt="..." />
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="car1 d-flex justify-content-evenly">
+                     <div class="caro-cont">
+                        <h6 class="text-white p-3 co"> SPECIAL OFFER TODAY!!</h6>
+                        <h1 class="text-white p-3 ch">SMART WATCH <br />SERIES 10</h1>
+                        <h5 class="d-inline p-3 cp">STARTING AT $299</h5> <br /> <br />
+                        <button class="btn text-bg-info btn-outline-primary p-3"> SHOP NOW </button>
+                     </div>
+                     <div class="i">
+                        <img class="car-img" src="./ima/caro3.png" class="d-block w-100" alt="..." />
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- prodeuct card 3 -->
+
+         <div class="container-fluid py-5 " id="collection">
+            <div class="product">
+               <div class="row d-flex justify-content-evenly gap-3">
+                  <!-- card 1 -->
+                  <div class="col-lg-auto col-sm-12 card-width bg-body-secondary">
+                     <div class="card-con d-flex">
+                        <div class="col-auto">
+                           <img src="ima/card1.jpg" class="c-img" alt="..." />
+                        </div>
+                        <div class="col-auto px-2 d-grid align-items-center">
+                           <div class="card-details">
+                              <div class="star">
+                                 <i class="fa-solid fa-star text-danger"></i>
+                                 <i class="fa-solid fa-star text-danger"></i>
+                                 <i class="fa-solid fa-star text-danger"></i>
+                                 <i class="fa-solid fa-star opacity-50"></i>
+                                 <i class="fa-solid fa-star opacity-50"></i>
+                              </div>
+                              <div class="card-tittle py-2">
+                                 <a href="" class="card-t">Festina Mademoiselle Watch <br /> With Case 38mm</a> <br />
+                                 <h5 class="py-2">$58.99</h5>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--  -->
+                  <div class="col-lg-auto col-sm-12 card-width bg-body-secondary">
+                     <!-- card 2 -->
+                     <div class="card-con d-flex">
+                        <div class="col-auto">
+                           <img src="ima/card2.jpg" class="c-img" alt="..." />
+                        </div>
+                        <div class="col-auto px-2 d-grid align-items-center">
+                           <div class="card-details">
+                              <div class="star">
+                                 <i class="fa-solid fa-star text-danger"></i>
+                                 <i class="fa-solid fa-star text-danger"></i>
+                                 <i class="fa-solid fa-star opacity-50"></i>
+                                 <i class="fa-solid fa-star opacity-50"></i>
+                                 <i class="fa-solid fa-star opacity-50"></i>
+                              </div>
+                              <div class="card-tittle py-2">
+                                 <a href="" class="card-t">Unigear Bombing Ski <br /> Wireless Speakers</a> <br />
+                                 <h5 class="py-2">$109.99</h5>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-auto col-sm-12 card-width bg-body-secondary">
+                     <!-- card 3 -->
+                     <div class="card-con d-flex">
+                        <div class="col-auto">
+                           <img src="ima/card3.jpg" class="c-img" alt="..." />
+                        </div>
+                        <div class="col-auto px-2 d-grid align-items-center">
+                           <div class="card-details">
+                              <div class="star">
+                                 <i class="fa-solid fa-star text-danger"></i>
+                                 <i class="fa-solid fa-star text-danger"></i>
+                                 <i class="fa-solid fa-star text-danger"></i>
+                                 <i class="fa-solid fa-star text-danger"></i>
+                                 <i class="fa-solid fa-star opacity-50"></i>
+                              </div>
+                              <div class="card-tittle py-2">
+                                 <a href="" class="card-t">Consequate Stanmore <br />
+                                    Bluetooth Wireless Speaker</a>
+                                 <br />
+                                 <h5 class="py-2">$350.00</h5>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+   </div>
+
+
+   <!-- scroll card section right to left -->
+
+   <div class="py-5 mx-4">
+      <div id="right" class="d-flex gap-4 justify-content-evenly">
+         <!-- pic 1 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s1.png" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Tablet</b></a>
+            </div>
+         </div>
+         <!-- pic 2 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s2.png" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Smartphone</b></a>
+            </div>
+         </div>
+         <!-- pic 3 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s3.png" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Game Console</b></a>
+            </div>
+         </div>
+         <!-- pic 4 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s4.png" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Camera</b></a>
+            </div>
+         </div>
+         <!-- pic 5 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s5.png" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Smartwatch</b></a>
+            </div>
+         </div>
+         <!-- pic 6 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s6.png" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Drone & Flycam</b></a>
+            </div>
+         </div>
+         <!-- pic 7 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s7.png" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Audio</b></a>
+            </div>
+         </div>
+         <!-- pic 8 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s8.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Digitalwatch</b></a>
+            </div>
+         </div>
+         <!-- pic 9-->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s9.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Ironbox</b></a>
+            </div>
+         </div>
+         <!-- pic 10 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s10.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Smartspeaker</b></a>
+            </div>
+         </div>
+         <!-- pic 11 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s11.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Smartwatch</b></a>
+            </div>
+         </div>
+         <!-- pic 12 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s12.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Headset</b></a>
+            </div>
+         </div>
+         <!-- pic 13 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s13.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Bluetooth Speaker</b></a>
+            </div>
+         </div>
+         <!-- pic 14 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s14.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Digital Watch</b></a>
+            </div>
+         </div>
+         <!-- pic 15 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s15.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Smartphone</b></a>
+            </div>
+         </div>
+         <!-- pic 16 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s16.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Smartphone</b></a>
+            </div>
+         </div>
+         <!-- pic 17 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s17.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Smartwatch</b></a>
+            </div>
+         </div>
+         <!-- pic 18 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s18.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Levoit Speaker</b></a>
+            </div>
+         </div>
+         <!-- pic 19 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s19.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Smart Speaker</b></a>
+            </div>
+         </div>
+         <!-- pic 20 -->
+         <div class="pic-img">
+            <div class="image pb-3">
+               <img src="ima/s20.jpg" class="a" alt="" />
+            </div>
+            <div class="pic-title text-center">
+               <a href="" class="text-dark"><b>Headphone</b></a>
+            </div>
+         </div>
+
+      </div>
+   </div>
+   <!-- cards end -->
+
+   <!-- main  Product cards -->
+   <div class="container-fluid p-5 cards" id="products">
+      <div class="shop-content  ">
+         <!-- Card 1 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C1.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Over The Headset</h2>
+            <p class="product-price">Rs: 2999</p>
+            <p class="add-cart" name="cart">Bye Now</p>
+         </div>
+         <!-- Card 2 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C2.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">MI Smart Watch</h2>
+            <span class="product-price">Rs: 3499</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 3 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C3.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Noise Smart Watch</h2>
+            <span class="product-price">Rs: 3999</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 4 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C4.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Smart IronBox</h2>
+            <span class="product-price">Rs: 999</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 5 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C5.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Orange Strape Watch</h2>
+            <span class="product-price">Rs: 899</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 6 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C10H.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Samsung M51</h2>
+            <span class="product-price">Rs: 21900</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 7 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C7.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Samsung Glassy Green</h2>
+            <span class="product-price">Rs: 22000</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 8 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C8.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Green Strape Smart watch</h2>
+            <span class="product-price">Rs: 2499</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 9 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C9.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Curen Causual Watch</h2>
+            <span class="product-price">Rs: 3999</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 10 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C10.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Redmi Note 15 5G Black</h2>
+            <span class="product-price">Rs: 19999</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 11 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C2H.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Apple Mixforce Watch</h2>
+            <span class="product-price">Rs: 30000</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 12 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C7H.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Redmi Green Forest 5G</h2>
+            <span class="product-price">Rs: 15999</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 13 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C1H.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">JBL Tune 510BT</h2>
+            <span class="product-price">Rs: 2599</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 14 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C9H.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Rock PapaPink Strape</h2>
+            <span class="product-price">Rs: 1799</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 15 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C3H.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Sonata Smart Watch</h2>
+            <span class="product-price">Rs: 2999</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+         <!-- Card 16 -->
+         <div class="product-box">
+            <div class="product-pic">
+               <img src="ca/C10H.jpg" class="product-img" />
+            </div>
+            <h2 class="product-title">Xiaomi 12 5G</h2>
+           
+            <span class="product-price">Rs: 42990</span>
+            <ion-icon name="cart" class="add-cart">Buy Now</ion-icon>
+         </div>
+
+      </div>
+   </div>
+   <!-- Product cardsection end -->
+
+   <!-- NewArrivals -->
+   <div class=" bigtv  " id="others">
+      <div class="img-tv">
+      </div>
+      <div class="tv-content">
+         <h4>Are you a Gamer?</h4>
+         <h2>MONITOR SCREEN FOR GAMING</h2>
+         <button class='bg-primary p-2 rounded-3 border-0'>Shop Now</button>
+      </div>
+   </div>
+
+
+      <div class="row rl-img d-flex m-5   gap-2 justify-content-around">
+         <div class=" col-md-5 left  ">
+         </div>
+         <div class="  right col-md-5 "></div>
+      </div>
+
+
+   <!-- footer -->
+   <footer class="py-5 my-4 bg-dark ">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+         <li class="nav-item"><a href="#" class="nav-link px-2 text-white  font-weight-bold">Home</a></li>
+         <li class="nav-item"><a href="#" class="nav-link px-2 text-white  font-weight-bold">Features</a></li>
+         <li class="nav-item"><a href="#" class="nav-link px-2 text-white  font-weight-bold">Pricing</a></li>
+         <li class="nav-item"><a href="#" class="nav-link px-2 text-white  font-weight-bold">FAQs</a></li>
+         <li class="nav-item"><a href="#" class="nav-link px-2 text-white  font-weight-bold">About</a></li>
+      </ul>
+      <p class="text-center text-white">© All Rights Reserved, Jaya Prakash</p>
+   </footer>
+   <!-- Footer End -->
+    <!-- Side Up Arrow -->
+    
+    <a href="#top">
+       <i class="fa-solid fa-arrow-up "></i>
+    </a>
+
+
+   <!--Add  To card section  -->
+   <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight">
+      <div class="offcanvas-header">
+         <h5 class="offcanvas-title" id="offcanvasRightLabel">Your Cart </h5>
+         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body overfloe-hidden"></div>
+      <div class="total mx-3">
+         <div class="total-title mr-3">Total</div>
+         <div class="total-price">Rs.0</div>
+      </div>
+      <button class="btn-buy">Place Order</button>
+   </div>
+
+
+
+
+
+
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
